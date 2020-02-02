@@ -124,6 +124,7 @@ function createMusicPlayer(data, i) {
     }
     musicIcons.appendChild(restartMusicBtn)
     var musicDetails = document.createElement("div")
+    musicDetails.className = "music-details-play"
     musicCard.appendChild(musicDetails)
     var musicName = document.createElement("h3")
     musicName.className = "song-name"
