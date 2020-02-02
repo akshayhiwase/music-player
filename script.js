@@ -4,7 +4,7 @@ var musicPlayList = document.getElementById("music-playlist")
 
 var responceData;
 var xhttp = new XMLHttpRequest()
-xhttp.open('GET', "http://5dd1894f15bbc2001448d28e.mockapi.io/playlist", true);
+xhttp.open('GET', "https://5dd1894f15bbc2001448d28e.mockapi.io/playlist", true);
 xhttp.onreadystatechange = function () {
 
     if (this.readyState === 4) {
